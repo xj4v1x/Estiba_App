@@ -1,0 +1,50 @@
+{
+    "header": {
+        "date": "2025-01-02",
+        "ver": "1.0",
+        "comm": "Tabla_Salarial_2025"
+    },
+    "categorias": [
+        {
+            "categoria": "grupoi",
+            "salario_base": 1111.11
+        },
+        {
+            "categoria": "grupoii",
+            "salario_base": 2222.22
+        },
+        {
+            "categoria": "grupoiii",
+            "salario_base": 3333.33
+        },
+        {
+            "categoria": "grupoiv",
+            "salario_base": 4444.44
+        }
+    ],
+    "extras": {
+        "quinquenio": 11.11,
+        "polivalencia": 22.22,
+        "seguro": 33,
+        "nocturno": 44.44,
+        "festivo": 55.55,
+        "noct_festivo": 66.66,
+        "tarde": 7.77,
+        "tarde_verano": 8.88,
+        "penosidad": 9.99,
+        "desplazamiento": 10.10,
+        "remate": 11.11,
+        "remate_festivo": 12.12,
+        "remate_nocturno": 13.13,
+        "remate_noct_festivo": 14.14,
+        "doble_sin": 15.15,
+        "doble_con": 16.16,
+        "doble_festivo": 17.17,
+        "renuncia_normal": 18.18,
+        "renuncia_tarde": 19.19,
+        "renuncia_tarde_verano": 20.20,
+        "renuncia_noche": 21.21,
+        "renuncia_doble": 22.22,
+        "partida": 23
+    }    
+}

@@ -1,0 +1,50 @@
+<script src="assets/js/contacts.js" defer></script>
+<section id="contacts_Screen" class="screen">
+    <label for="search">Por número de Estiba o por Nombre:</label>    
+    <input type="text" id="search" oninput="buscarPersonas()">
+    <div id="resultadoBusqueda"></div>    
+    <div class="contactsButtons">
+        
+        <!-- Botón para abrir el modal de añadir contacto -->
+        <a class="card minicard" onclick="abrirModal('addContactModal')">
+            <span class="material-icons big orange">add</span>
+        </a>                
+        <!-- Botón para abrir el modal de modificar contacto 
+        <a class="card minicard" onclick="abrirModal('editContactModal')">
+            <span class="material-icons big orange">edit</span>
+        </a>
+        -->
+        <a class="card minicard" href="?screen=mainScreen"><span class="material-icons big orange">home</span></a>    
+    </div>
+</section>
+
+<!-- Modals -->
+<!-- Modal para Agregar Contacto -->
+<div id="addContactModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarModal('addContactModal')">&times;</span>
+        <h2>Añadir Contacto</h2>
+        <label for="addNumber">Número de Estiba:</label>
+        <input type="text" id="addNumber" placeholder="Introduce el número">
+        <label for="addName">Nombre:</label>
+        <input type="text" id="addName" placeholder="Introduce el nombre">
+        <label for="addPhone">Teléfono:</label>
+        <input type="tel" id="addPhone" placeholder="Introduce el teléfono">
+        <button onclick="confirmarAgregar()">Añadir</button>
+    </div>
+</div>
+
+<!-- Modal para Modificar Contacto -->
+<div id="editContactModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarModal('editContactModal')">&times;</span>
+        <h2>Modificar Contacto</h2>
+        <label for="editNumber">Número de Estiba (para buscar):</label>
+        <input type="text" id="editNumber" placeholder="Introduce el número">
+        <label for="editName">Nuevo Nombre:</label>
+        <input type="text" id="editName" placeholder="Deja en blanco si no cambia">
+        <label for="editPhone">Nuevo Teléfono:</label>
+        <input type="tel" id="editPhone" placeholder="Deja en blanco si no cambia">
+        <button onclick="confirmarModificar()">Modificar</button>
+    </div>
+</div>

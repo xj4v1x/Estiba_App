@@ -1,0 +1,55 @@
+{
+    "header": {
+    "date": "2024-12-05",
+    "ver": "1.0",
+    "comm": "Teléfonos"
+},
+    "datos": 
+    [
+        {
+            "number": "5001",
+            "name": "Jose Martinez Martinez",
+            "phone": "666666666"
+        },
+        {
+            "number": "5002",
+            "name": "Raul Castillo Martinez",
+            "phone": "666666666"
+        },
+        {
+            "number": "5003",
+            "name": "Vicente Garcia Garcia",
+            "phone": "666666666"
+        },
+        {
+            "number": "5004",
+            "name": "Miguel Hernandez Peña",
+            "phone": "666666666"
+        },
+        {
+            "number": "5005",
+            "name": "Tomas Moreno Domingo",
+            "phone": "666666666"
+        },
+        {
+            "number": "5006",
+            "name": "Alberto Ortiz Martinez",
+            "phone": "666666666"
+        },
+        {
+            "number": "5007",
+            "name": "Miguel Angel Delgado Ruiz",
+            "phone": "666666666"
+        },
+        {
+            "number": "5008",
+            "name": "Jose Gonzalez Garcia",
+            "phone": "666666666"
+        },
+        {
+            "number": "5009",
+            "name": "Tomas Puente Alonso",
+            "phone": "666666666"
+        }
+    ]
+}

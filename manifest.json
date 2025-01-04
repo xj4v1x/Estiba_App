@@ -1,0 +1,21 @@
+{
+    "name": "EstibApp",
+    "short_name": "EstibApp",
+    "description": "EstibApp",
+    "icons": [
+      {
+        "src": "assets/icons/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "assets/icons/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "https://javilazkano.com/estibapp/",
+    "display": "standalone",
+    "background_color": "#1e2024",
+    "theme_color": "#1e2024"
+}  

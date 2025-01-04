@@ -1,0 +1,274 @@
+{
+    "events": [        
+        {
+            "date": "2025-01-01",
+            "type": "inhabil",
+            "description": "Año nuevo"
+        },                
+        {
+            "date": "2025-01-03",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-01-06",
+            "type": "festivo",
+            "description": "Festivo"
+        },
+        {
+            "date": "2025-01-17",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-01-31",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-02-14",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-02-28",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-03-14",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-03-28",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-03-30",
+            "type": "newhour",
+            "description": "Cambio de hora"
+        },
+        {
+            "date": "2025-04-11",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-04-17",
+            "type": "festivo",
+            "description": "Festivo. Semana Santa"
+        },
+        {
+            "date": "2025-04-18",
+            "type": "festivo",
+            "description": "Festivo. Semana Santa"
+        },
+        {
+            "date": "2025-04-21",
+            "type": "festivo",
+            "description": "Festivo. Semana Santa"
+        },
+        {
+            "date": "2025-04-25",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-04-26",
+            "type": "copa",
+            "description": "Final de Copa"
+        },
+        {
+            "date": "2025-04-30",
+            "type": "rock",
+            "description": "FiestibaROCK"
+        },
+        {
+            "date": "2025-05-01",
+            "type": "inhabil",
+            "description": "Día del Trabajador"
+        },
+        {
+            "date": "2025-05-09",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-05-17",
+            "type": "ugt",
+            "description": "UGT Eguna"
+        },
+        {
+            "date": "2025-05-21",
+            "type": "copa",
+            "description": "Final E. League"
+        },
+        {
+            "date": "2025-05-23",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-06-04",
+            "type": "txejo",
+            "description": "Cumple de Txejo"
+        },
+        {
+            "date": "2025-06-06",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-06-20",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-07-04",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-07-16",
+            "type": "inhabil",
+            "description": "La Virgen del Carmen"
+        },
+        {
+            "date": "2025-07-18",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-07-25",
+            "type": "festivo",
+            "description": "Santiago Apóstol"
+        },
+        {
+            "date": "2025-07-31",
+            "type": "festivo",
+            "description": "San Ignacio de Loiola"
+        },
+        {
+            "date": "2025-08-01",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-08-15",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-08-15",
+            "type": "festivo",
+            "description": "Asunción de la Virgen"
+        },
+        {
+            "date": "2025-08-18",
+            "type": "semanagrande",
+            "description": "Semana Grande"
+        },
+        {
+            "date": "2025-08-19",
+            "type": "semanagrande",
+            "description": "Semana Grande"
+        },
+        {
+            "date": "2025-08-20",
+            "type": "semanagrande",
+            "description": "Semana Grande"
+        },
+        {
+            "date": "2025-08-21",
+            "type": "semanagrande",
+            "description": "Semana Grande"
+        },
+        {
+            "date": "2025-08-22",
+            "type": "festivo",
+            "description": "Festivo"
+        },        
+        {
+            "date": "2025-08-29",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-09-12",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-09-26",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-10-10",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-10-24",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-10-26",
+            "type": "newhour",
+            "description": "Cambio de hora"
+        },
+        {
+            "date": "2025-11-01",
+            "type": "festivo",
+            "description": "Todos los Santos"
+        },
+        {
+            "date": "2025-11-07",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-11-21",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-12-05",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-12-06",
+            "type": "festivo",
+            "description": "Día de la Constitución"
+        },
+        {
+            "date": "2025-12-08",
+            "type": "festivo",
+            "description": "Día de la Inmaculada Concepción"
+        },
+        {
+            "date": "2025-12-19",
+            "type": "newcicle",
+            "description": "Inicio de ciclo"
+        },
+        {
+            "date": "2025-12-24",
+            "type": "media",
+            "description": "Jornada de 8 a 12"
+        },
+        {
+            "date": "2025-12-25",
+            "type": "inhabil",
+            "description": "Navidad"
+        },
+        {
+            "date": "2025-12-31",
+            "type": "media",
+            "description": "Jornada de 8 a 12"
+        }
+    ]
+}  
