@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>EstibApp</title>
+    <link rel="icon" type="image/x-icon" href="/estibapp/assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet">                   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />                   
+</head>
+<body>
+    <header>
+        <h1>EstibApp</h1>        
+    </header>
+    <main class="content">
+        <form id="vacacionesForm" method="POST" action="send.php">            
+            <div id="successMessage" class="success"></div>
+            <div class="section">
+                <label for="number">Número</label>
+                <input type="number" name="number" id="number">
+                <div id="error-number" class="error"></div>
+                <label for="categoria">Categoría
+                    <select name="categoria" id="categoria">
+                        <option value="">Categoría...</option>
+                        <option value="grupoi">Grupo I</option>
+                        <option value="grupoii">Grupo II</option>
+                        <option value="grupoiii">Grupo III</option>
+                        <option value="grupoiv">Grupo IV</option>                            
+                    </select>
+                </label>
+                <div id="error-categoria" class="error"></div>
+            </div>
+            <div class="section">
+                <h3>Me toca</h3>
+                <ul class="metoca_mes">
+                    <li class="meses">
+                        <label for="junio">Junio                            
+                            <input type="radio" id="junio" name="metoca" value="junio">
+                        </label>
+                    </li>
+                    <li class="meses">
+                        <label for="julio">Julio
+                            <input type="radio" id="julio" name="metoca" value="julio">
+                        </label>
+                    </li>
+                    <li class="meses">
+                        <label for="agosto">Agosto
+                            <input type="radio" id="agosto" name="metoca" value="agosto">
+                        </label>
+                    </li>
+                    <li class="meses">
+                        <label for="septiembre">Septiembre
+                            <input type="radio" id="septiembre" name="metoca" value="septiembre">
+                        </label>
+                    </li>
+                </ul>
+                <div id="error-metoca" class="error"></div>
+            </div>
+            <br>
+            <div class="section">
+                <h3>Quiero Cambiar mi Primera Quincena por...</h3>                
+                <p>Junio</p>
+                <ul class="metoca_mes">
+                    <li class="meses">
+                        <label for="primera_junio_one">Primera Quincena
+                            <input type="checkbox" id="primera_junio_one" name="quiero_one[]" value="primera_junio_one">
+                        </label>
+                    </li>
+                    <li class="meses">
+                        <label for="segunda_junio_one">Segunda Quincena
+                            <input type="checkbox" id="segunda_junio_one" name="quiero_one[]" value="segunda_junio_one">
+                        </label>
+                    </li>                       
+                </ul>                    
+                <br>        
+                <p>Julio</p>
+                <ul class="metoca_mes">
+                    <li class="meses">
+                        <label for="primera_julio_one">Primera Quincena
+                            <input type="checkbox" id="primera_julio_one" name="quiero_one[]" value="primera_julio_one">
+                        </label>
+                    </li>
+                    <li class="meses">
+                        <label for="segunda_julio_one">Segunda Quincena
+                            <input type="checkbox" id="segunda_julio_one" name="quiero_one[]" value="segunda_julio_one">
+                        </label>
+                    </li>                       
+                </ul>                    
+                <br>        
+                <p>Agosto</p>
+                <ul class="metoca_mes">
+                    <li class="meses">
+                        <label for="primera_agosto_one">Primera Quincena
+                            <input type="checkbox" id="primera_agosto_one" name="quiero_one[]" value="primera_agosto_one">
+                        </label>
+                    </li>
+                    <li class="meses">
+                        <label for="segunda_agosto_one">Segunda Quincena
+                            <input type="checkbox" id="segunda_agosto_one" name="quiero_one[]" value="segunda_agosto_one">
+                        </label>
+                    </li>                       
+                </ul>            
+                <br>        
+                <p>Septiembre</p>
+                <ul class="metoca_mes">
+                    <li class="meses">
+                        <label for="primera_septiembre_one">Primera Quincena
+                            <input type="checkbox" id="primera_septiembre_one" name="quiero_one[]" value="primera_septiembre_one">
+                        </label>
+                    </li>
+                    <li class="meses">
+                        <label for="segunda_septiembre_one">Segunda Quincena
+                            <input type="checkbox" id="segunda_septiembre_one" name="quiero_one[]" value="segunda_septiembre_one">
+                        </label>
+                    </li>
+                </ul>
+                <div>
+                    <br>
+                    <div class="meses">
+                        <label for="fuera_one">La voy a sacar fuera
+                            <input type="checkbox" id="fuera_one" name="fuera_one" value="fuera_one">
+                        </label>
+                    </div>
+                </div>
+                <div id="error-fuera_one" class="error"></div>
+            </div>            
+            <br>
+            <div class="section">
+                <h3>Quiero Cambiar mi Segunda Quincena por...</h3>                
+                <p>Junio</p>
+                <ul class="metoca_mes">
+                    <li class="meses">
+                        <label for="primera_junio_two">Primera Quincena
+                            <input type="checkbox" id="primera_junio_two" name="quiero_two[]" value="primera_junio_two">
+                        </label>
+                    </li>
+                    <li class="meses">
+                        <label for="segunda_junio_two">Segunda Quincena
+                            <input type="checkbox" id="segunda_junio_two" name="quiero_two[]" value="segunda_junio_two">
+                        </label>
+                    </li>                       
+                </ul>                    
+                <br>        
+                <p>Julio</p>
+                <ul class="metoca_mes">
+                    <li class="meses">
+                        <label for="primera_julio_two">Primera Quincena
+                            <input type="checkbox" id="primera_julio_two" name="quiero_two[]" value="primera_julio_two">
+                        </label>
+                    </li>
+                    <li class="meses">
+                        <label for="segunda_julio_two">Segunda Quincena
+                            <input type="checkbox" id="segunda_julio_two" name="quiero_two[]" value="segunda_julio_two">
+                        </label>
+                    </li>                       
+                </ul>                    
+                <br>        
+                <p>Agosto</p>
+                <ul class="metoca_mes">
+                    <li class="meses">
+                        <label for="primera_agosto_two">Primera Quincena
+                            <input type="checkbox" id="primera_agosto_two" name="quiero_two[]" value="primera_agosto_two">
+                        </label>
+                    </li>
+                    <li class="meses">
+                        <label for="segunda_agosto_two">Segunda Quincena
+                            <input type="checkbox" id="segunda_agosto_two" name="quiero_two[]" value="segunda_agosto_two">
+                        </label>
+                    </li>                       
+                </ul>            
+                <br>        
+                <p>Septiembre</p>
+                <ul class="metoca_mes">
+                    <li class="meses">
+                        <label for="primera_septiembre_two">Primera Quincena
+                            <input type="checkbox" id="primera_septiembre_two" name="quiero_two[]" value="primera_septiembre_two">
+                        </label>
+                    </li>
+                    <li class="meses">
+                        <label for="segunda_septiembre_two">Segunda Quincena
+                            <input type="checkbox" id="segunda_septiembre_two" name="quiero_two[]" value="segunda_septiembre_two">
+                        </label>
+                    </li>
+                </ul>
+                <div>
+                    <br>
+                    <div class="meses">
+                        <label for="fuera_two">La voy a sacar fuera
+                            <input type="checkbox" id="fuera_two" name="fuera_two" value="fuera_two">
+                        </label>
+                    </div>
+                </div>
+                <div id="error-fuera_two" class="error"></div>
+            </div>                                 
+            <button type="submit">Enviar</button>
+        </form>
+
+        <a class="card minicard" href="https://javilazkano.com/estibapp/"><span class="material-icons big orange">home</span></a>
+    </main>
+    <footer>
+        <img src="../assets/img/logo_White.svg" alt="logo" id="lazlogo">
+        <p>&copy; 2024 JaviLazkano. v0.25</p>      
+        <!--
+        <a href="logout.php">Salir</a>
+        -->
+    </footer>
+    <script src="send.js"></script>
+</body>      
+</html>    
